@@ -834,7 +834,6 @@
 	          }
 	        }
 	      }
-
 	      return true;
 	    }
 	  }, {
@@ -17140,6 +17139,8 @@
 
 	var MeepleInventory = __webpack_require__(15);
 	var PlayerInfo = __webpack_require__(17);
+
+	'use strict';
 
 	var Player = (function () {
 	  function Player(name, color) {
