@@ -922,6 +922,7 @@
 	          }
 	        }
 	      }
+
 	      return true;
 	    }
 	  }, {
@@ -17275,20 +17276,12 @@
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-	var MeepleInventory = __webpack_require__(15);
-	var PlayerInfo = __webpack_require__(17);
-
-	'use strict';
-
-	var Player = (function () {
-	  function Player(name, color) {
-	    _classCallCheck(this, Player);
-
 	var config = __webpack_require__(14).info;
 
 	var Tile = (function () {
 	  function Tile(image, type, top, right, bottom, left, pennant, x, y) {
 	    _classCallCheck(this, Tile);
+
 	    this.image = image;
 	    this.type = type;
 	    this.top = top;
