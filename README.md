@@ -1,6 +1,6 @@
 # Carcassonne
 
-A tile-based board game for 2-5 players. Players take turn placing tiles and followers onto the board. Tiles and followers cannot be placed on invalid positions. Players can keep track of their scores. 
+A tile-based board game for 2-5 players. Players take turns placing tiles and followers onto the board. Tiles and followers cannot be placed on invalid positions. Players can keep track of their scores. 
 
 The game is built with JavaScript, jQuery and GreenSock for animations.
 
